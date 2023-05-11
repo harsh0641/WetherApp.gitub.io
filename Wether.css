@@ -63,7 +63,7 @@ body {
 
 .search button img {
     width: 16px;
-    margin: -5px ;
+    margin: -5px;
 
 }
 
@@ -73,15 +73,17 @@ body {
 }
 
 .weather h1 {
-    font-size: 60px;
+    font-size: 50px;
+    margin-top: 30px;
     font-weight: 500;
+    color: rgb(0, 240, 240);
 }
 
 .weather h2 {
     font-size: 40px;
     margin-top: -10px;
     font-weight: 400;
-
+    margin-top: -5px;
 }
 
 .details {
@@ -89,7 +91,7 @@ body {
     align-items: center;
     justify-content: space-between;
     padding: 0 20px;
-
+    margin-top: 30px;
 
 }
 
@@ -98,6 +100,10 @@ body {
     display: flex;
     align-items: center;
     text-align: left;
+
+}
+.col p{
+    margin-top: 5px;
 }
 
 .col img {
@@ -110,7 +116,7 @@ body {
 .wind {
     font-size: 25px;
     margin-right: -40px;
-
+    margin-top: -40px;
 }
 
 .error {
@@ -150,8 +156,8 @@ body {
 
     .search button img {
         width: 18px;
-        margin: -5px ;
-    
+        margin: -5px;
+
     }
 
     .search {
